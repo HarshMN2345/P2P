@@ -1,40 +1,42 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
+import linkedn from '../assets/social/mdi_linkedin.svg';
 
 const Footer = () => {
   return (
-    <div>
-        <div className="w-[1440px] h-[338px] p-20 bg-white justify-between items-start inline-flex">
-    <div className="flex-col justify-start items-start gap-16 inline-flex">
-        <div className="flex-col justify-start items-start gap-8 flex">
-            <div className="text-neutral-700 text-[32px] font-semibold ">PixelPerfect</div>
-            <div className="justify-start items-start gap-6 inline-flex">
-                <div className="text-neutral-700 text-xl font-medium ">About us</div>
-                <div className="text-neutral-700 text-xl font-medium ">Our services</div>
-                <div className="text-neutral-700 text-xl font-medium ">Projects</div>
-                <div className="text-neutral-700 text-xl font-medium ">Testimonials</div>
-                <div className="text-neutral-700 text-xl font-medium ">Contact us</div>
-            </div>
+    <div className="w-full p-20 bg-white flex justify-between items-start">
+      <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-8">
+          <div className="text-neutral-700 text-[32px] font-semibold">PixelPerfect</div>
+          <div className="flex gap-6">
+            <div className="text-neutral-700 text-xl font-medium">About us</div>
+            <div className="text-neutral-700 text-xl font-medium">Our services</div>
+            <div className="text-neutral-700 text-xl font-medium">Projects</div>
+            <div className="text-neutral-700 text-xl font-medium">Testimonials</div>
+            <div className="text-neutral-700 text-xl font-medium">Contact us</div>
+          </div>
         </div>
-        <div className="text-neutral-400 text-base font-normal ">©2024 Megha Mahajan. All rights reserved.</div>
-    </div>
-    <div className="flex-col justify-start items-start gap-6 inline-flex">
-        <div className="text-neutral-700 text-xl font-medium ">Find us online</div>
-        <div className="justify-start items-center gap-8 inline-flex">
-            <div className="w-8 h-8 relative" />
-            <div className="w-8 h-8 relative" />
-            <div className="w-8 h-8 relative">
-                <div className="w-6 h-6 left-[4px] top-[4px] absolute">
-                    <div className="w-6 h-6 left-0 top-0 absolute">
-                        
-                    </div>
-                </div>
-            </div>
-            <div className="w-8 h-8 relative" />
+        <div className="text-neutral-400 text-base font-normal">©2024 Megha Mahajan. All rights reserved.</div>
+      </div>
+      <div className="flex flex-col gap-6">
+        <div className="text-neutral-700 text-xl font-medium">Find us online</div>
+        <div className="flex gap-8">
+          <div className="w-8 h-8">
+            <Image src={linkedn} alt="LinkedIn" layout="responsive" width={32} height={32} />
+          </div>
+          <div className="w-8 h-8">
+            <Image src={linkedn} alt="LinkedIn" layout="responsive" width={32} height={32} />
+          </div>
+          <div className="w-8 h-8">
+            <Image src={linkedn} alt="LinkedIn" layout="responsive" width={32} height={32} />
+          </div>
+          <div className="w-8 h-8">
+            <Image src={linkedn} alt="LinkedIn" layout="responsive" width={32} height={32} />
+          </div>
         </div>
+      </div>
     </div>
-</div>
-    </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
