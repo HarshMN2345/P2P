@@ -1,7 +1,11 @@
+import Brands from "@/components/Brands";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import GirlBanner from "@/components/GirlBanner";
 import Happy from "@/components/Happy";
 import Hero from "@/components/Hero";
+import Manage from "@/components/Manage";
+import Manage2 from "@/components/Manage2";
 import Navbar from "@/components/Navbar";
 import Offer from "@/components/Offer";
 import Testimonials from "@/components/Testimonials";
@@ -15,8 +19,12 @@ export default function Home() {
      <Navbar/>
      <Hero/>
      <Happy/>
-     <Young/>
+     <Brands/>
+     <GirlBanner/>
+     <Manage/> 
+     <Manage2/>
      <Offer/>
+     <Young/> 
      {/* <Work/> */}
      {/* <Testimonials/> */}
      <Contact/>

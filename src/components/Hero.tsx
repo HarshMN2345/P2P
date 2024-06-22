@@ -17,6 +17,7 @@ import D from '../assets/Alphabets/Vector (15).svg'
 import S from '../assets/Alphabets/Vector (17).svg'
 import G from '../assets/Alphabets/Vector (19).svg'
 import N from '../assets/Alphabets/Vector (20).svg'
+import C from '../assets/Alphabets/C.svg'
 
 
 const Hero = () => {
@@ -25,10 +26,11 @@ const Hero = () => {
             <div className="w-[1440px] h-[498px] py-12 flex-col justify-start items-center gap-14 inline-flex">
                 <div className="h-[194.91px] flex flex-col justify-start items-center gap-10">
                     <div className="flex justify-center items-start gap-8">
-                        <div className="w-[298.53px] h-[75.37px] flex flex-row">
+                        <div className="w-[384.53px] h-[75.37px] flex flex-row">
                             <Image src={P} alt="P" className="w-auto h-full px-2" />
                             <Image src={I} alt="I" className="w-auto h-full px-2" />
                             <Image src={X} alt="X" className="w-auto h-full px-2" />
+                            <Image src={C} alt="C" className="w-auto h-full px-2" />
                             <Image src={E} alt="E" className="w-auto h-full px-2" />
                             <Image src={L} alt="L" className="w-auto h-full px-2" />
                         </div>

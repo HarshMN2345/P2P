@@ -11,7 +11,7 @@ const Navbar = () => {
       width={32} />
         </div>
         <div className="text-black text-2xl font-medium">
-        Pixel Perfect
+        Pixcel Perfect
         </div>
       </div>
       <div className="flex gap-12">
