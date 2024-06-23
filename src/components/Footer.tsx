@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
 
       {/* Right Section */}
-      <div className="flex gap-4 md:gap-8">
+      <div className="flex py-4 gap-4 md:gap-8">
         <div className="w-10 h-10 md:w-12 md:h-12">
           <Image src={linkedn} alt="LinkedIn" layout="responsive" width={32} height={32} />
         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="w-10 h-10 md:w-12 md:h-12">
           <Image src={linkedn} alt="LinkedIn" layout="responsive" width={32} height={32} />
         </div>
-        <div className="w-10 h-10 md:w-12 md:h-12">
+        <div className="w-10 h-10  md:w-12 md:h-12">
           <Image src={linkedn} alt="LinkedIn" layout="responsive" width={32} height={32} />
         </div>
       </div>

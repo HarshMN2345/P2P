@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-screen relative bg-neutral-50 flex flex-col items-center justify-center">
+    <div className="w-full relative bg-neutral-50 flex flex-col items-center justify-center">
       {/* Header */}
       <div className="w-full text-center mb-8">
         <h1 className="text-black text-5xl md:text-6xl lg:text-7xl font-normal">Got any idea</h1>

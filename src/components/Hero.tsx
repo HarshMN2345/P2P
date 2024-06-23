@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="sm:w-837 md:912 lg:w-full h-auto py-12 flex flex-col justify-start items-center gap-14">
             <div className="flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col lg:flex-row justify-center items-start gap-8">
-                    <div className="sm:items-center flex flex-row">
+                    <div className="flex flex-row">
                         <Image src={P} alt="P" className="w-auto h-10 lg:h-full px-2" />
                         <Image src={I} alt="I" className="w-auto h-10 lg:h-full px-2" />
                         <Image src={X} alt="X" className="w-auto h-10 lg:h-full px-2" />
