@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+  }
+  
+  #root {
+    width: 100%;
+    overflow-x: hidden; /* Ensure the root element does not overflow */
+  }
+  
+  * {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  /* Additional styles for components if necessary */
+  

@@ -21,7 +21,7 @@ import C from '../assets/Alphabets/C.svg';
 
 const Hero = () => {
     return (
-        <div className="w-full h-auto py-12 flex flex-col justify-start items-center gap-14">
+        <div className="sm:w-837 md:912 lg:w-full h-auto py-12 flex flex-col justify-start items-center gap-14">
             <div className="flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col lg:flex-row justify-center items-start gap-8">
                     <div className="sm:items-center flex flex-row">
